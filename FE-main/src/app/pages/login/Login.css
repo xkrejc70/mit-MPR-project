@@ -1,0 +1,43 @@
+.loginBackgroundImage {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../../../public/images/login-background.png") no-repeat;
+    background-size: cover;
+}
+
+.loginForm {
+    height: 100vh;
+    width: 400px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    display: flex;
+}
+
+.redSquare {
+    margin: 5px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(184, 0, 0);
+}
+
+.swName {
+    margin: 5px;
+    margin-left: 20px;
+    padding: 0;
+    font-size: 80px;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+    color: rgba(255, 255, 255, 0.7);
+}

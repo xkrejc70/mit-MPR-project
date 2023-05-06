@@ -1,0 +1,68 @@
+.dashboard {
+    width: 80%;
+    margin:auto;
+    color: #1d3746;
+}
+
+.dashboard h1 {
+    font-size:xx-large;
+    font-weight: 500;
+}
+
+.project {
+    width: 100%;
+    background-color: white;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.columnInfo {
+    flex:70%;
+    padding: 10px;
+}
+
+.columnInfo h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.columnStats {
+    flex: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 30px;
+    border-left-width: 2px;
+    border-left-color: #e8e8e8;
+}
+
+.columnStats h3 {
+    font-size: x-large;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.columnStats p {
+    margin-top: 5px;
+}
+
+.columnStats button {
+    background-color: #ff0051;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+}
+
+.columnStats button:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 1300px) {
+    .dashboard {
+        width: 90%;
+    }
+  }

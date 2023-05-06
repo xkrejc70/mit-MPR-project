@@ -1,0 +1,109 @@
+.createProject {
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    min-height: 500px;
+    padding: 50px;
+    color: #1d3746;
+}
+
+.createProject h1 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.input {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    line-height:20px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex:50%
+}
+
+.calendar {
+    background-color: #1d3746;
+    color: white;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 40%;
+}
+
+.calendar:hover {
+    cursor: pointer;
+}
+
+.scales {
+    margin-top: 20px;
+}
+
+.createProject button {
+    background-color: #1d3746;
+    margin-top: 20px;
+    width: 20%;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+}
+
+.createProject button:hover {
+    opacity: 0.6;
+}
+
+.risks {
+    margin-top: 20px;
+}
+
+.risk {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: rgb(104, 202, 234);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px; 
+}
+
+.categoryInput {
+    display: inline-block;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.categoryInput button {
+    margin-left: 50px;
+    background-color: #1d3746;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    width:30%
+}
+
+.categoryInput button:hover {
+    opacity: 0.6;
+}
+
+.categoryInput input {
+    width: 35%;
+}
+
+.scales .check {
+    margin-left: 5px;
+}
+
+.errorMessage {
+    color: red
+}
