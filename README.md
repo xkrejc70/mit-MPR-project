@@ -1,3 +1,8 @@
+# MPR 2022/2023 – Project: Risk Manager
+
+Obtained points: 30/30
+
+
 # MPR-BE
 
 Install Python and Django. It should be possible to open this project in PyCharm, just open it and add python3
